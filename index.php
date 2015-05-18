@@ -1,13 +1,33 @@
+<?php
+if ($_POST['someone_is_coming'] == 'yeah'):
+    $to = 'gramsjam2015@gmail.com';
+    $message = 'Who: '.$_POST['attendee_name'] . "\r\n";
+    $message = 'How Many: '.$_POST['attendee_count'] . "\r\n";
+
+    $headers  = 'MIME-Version: 1.0' . "\r\n";
+    $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
+    $headers .= 'From: Website <tim@grams-jam.com>' . "\r\n";
+    //mail($to, 'Someone\'s Comin Thru', $message, $headers);
+endif;
+//$to      = 'tbthorpe@gmail.com';
+//$subject = 'grams jam test';
+//$message = 'hello';
+//$headers = 'From: tim@paddle8.com' . "\r\n" .
+//    'Reply-To: tim@paddle8.com' . "\r\n" .
+//    'X-Mailer: PHP/' . phpversion();
+//
+//mail($to, $subject, $message, $headers);
+?>
 <html>
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css"> 
-        <title>Index</title>
+        <title>Grams Jam: 2015 Edition</title>
         
     </head>
     <body>
         <div id="marquee_text">
-            <span class="bigger">GRAMS JAM: 2015</span>
+        <span class="bigger"><?= "GRAMS JAM: 2015" ?></span>
         </div>
         <div id="content">
             
