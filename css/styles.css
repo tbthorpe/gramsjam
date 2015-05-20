@@ -1,0 +1,21 @@
+#nav {
+  margin: 15px 0 40px 0;
+  font-family: "Helvetica Neue"; }
+  #nav #centered-container {
+    width: 560px;
+    margin: 0 auto;
+    color: white;
+    font-size: 28px;
+    font-weight: bold; }
+    #nav #centered-container ul {
+      list-style-type: none; }
+      #nav #centered-container ul:after {
+        content: ".";
+        visibility: hidden;
+        display: block;
+        height: 0;
+        clear: both; }
+      #nav #centered-container ul li {
+        float: left; }
+
+/*# sourceMappingURL=styles.css.map */

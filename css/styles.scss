@@ -1,0 +1,29 @@
+@mixin clearfix {
+    &:after {
+        content: "."; 
+        visibility: hidden; 
+        display: block; 
+        height: 0; 
+        clear: both;
+    }
+}
+
+#nav{
+    margin:15px 0 40px 0;
+    font-family:"Helvetica Neue";
+    #centered-container{
+        width:560px;
+        margin:0 auto;
+        color:white;
+        font-size:28px;
+        font-weight:bold;
+        ul{
+            @include clearfix;
+            list-style-type:none;
+            li{
+                float:left;
+            }
+        }
+    }
+}
+
