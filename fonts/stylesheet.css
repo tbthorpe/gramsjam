@@ -18,8 +18,11 @@
 body{
     font-family:notepadregular,arial,sans;
     font-size:16px;
-    background:url(/bg.jpg);
-    background-size:cover;
+    background:url(/bg.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 }
 h1{
     font-family:notepadregular,arial,sans;

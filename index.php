@@ -2,6 +2,7 @@
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css"> 
+        <link rel="stylesheet" type="text/css" href="css/styles.css"> 
         <script src="http://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
         <title>Grams Jam: 2015 Edition</title>
         
@@ -37,6 +38,16 @@
         <div id="marquee_text">
             <span class="bigger"><?= "GRAMS JAM: 2015" ?></span>
         </div>
+
+        <div id="nav">
+            <div id="centered-container">
+                <ul>
+                    <li>nav1</li>
+                    <li>nav2</li>
+                </ul>
+            </div>
+        </div>
+
         <div id="content">
             
             <div id="info_content">
