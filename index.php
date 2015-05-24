@@ -110,29 +110,42 @@
                 <ul>
 					<li>
 						<h2>Dawson's Creek</h2>
-						<p>Ha DUH we'll be playing it ALL DAY LONG</p>
+						<p>Ha DUH we'll be playing it ALL DAY LONG in the barn, by 
+						the fire at night...it's always there.</p>
 					</li>
 					<li>
 						<h2>Music</h2>
-						<p>Bands start at 2pm on Saturday. </p>
+						<p>This isn't a joke, it's a legit all day festival. Bands start at 2pm on Saturday. </p>
 					</li>
 					<li>
-						<h2>Food/Drink</h2>
-						<p>Garbage plates and late night pizzas created by our favorite chef Brian Durnin, Fordham Beer, Point of the Bluff Wine and Specialty Dawson's Creek themed cocktails created by mixologist Chris McCleod. Brian and Chris will also be serving breakfast burritos, mimosas, and bloody marys for those staying the night. But for word, don't let yourself see the bottom of your cup.</p>
+						<h2>Food</h2>
+						<p><u>Garbage plates</u> and <u>late night pizza pies</u> created by our favorite chef Brian Durnin. Brian and Mixologist Master Chris will also be serving <u>breakfast burritos</u>, <u>mimosas</u>, and <u>bloody marys</u> for those staying the night (you should).</p>
 					</li>
 					<li>
-						<h2>Games</h2>
+						<h2>All Day Drinks</h2>
+						<p>Oh man. It's all diy. I'm already tired thinking about it. <u>A specially made Grams Jam Signature beer</u>, <u>Point of the Bluff Wine</u> and <u>unique Dawson's Creek themed cocktails</u> (only thing not included in your ticket price. These will still be MAD cheap though) created by mixologist Chris McCleod. And don't forget about the <u>mimosas</u>, and <u>bloody marys</u> for those staying the night. But for word, don't let yourself see the bottom of your cup.<br/><span class='tiny'>I'm also sure tim is going to bring some genny cream ales just because...Rochester</span></p>
+					</li>
+					<li>
+						<h2>Games & Prizes</h2>
 						<p>The usual lawn games, volleyball maybe, flipcup, beer 
 						pong, and a MASTER SURPRISE GAME THAT WILL BE SO FUN YOU 
 						DON'T EVEN KNOW I SWEAR. Seriously though bring a bathing 
-						suit.</p>
+						suit. There's also gonna be prizes and raffles and SO MUCH 
+						STUFF THIS YEAR.</p>
 					</li>
 					<li>
-						<h2>Camp out</h2>
+						<h2>Camp Out</h2>
 						<p>If you're coming, bring a tent and stay though the night. 
 						Did you read above? You get breakfast burritos and bloodies. 
 						Need a tent? We'll FIGURE IT OUT. Need more gear? WE MIGHT BE 
 						ABLE TO FIGURE IT OUT.</p>
+					</li>
+					<li>
+						<h2>What Should You Bring?</h2>
+						<p><b>GOOD VIBES</b>, sunscreen, swim clothes if you wanna get wet, 
+						your childhood crush on Joey Potter, and if you're going to 
+						camp out - anything you can bring: tent, sleeping bags, 
+						EXCITEMENT.</p>
 					</li>
 				</ul>
 		</section>
@@ -161,6 +174,9 @@
 			<div class="thankyou">
 			</div>
 		</section>
-        </div>
+		<div id="footer">
+			<?php echo "&copy"; ?> GramsJam 2015.<br>
+			If you have any questions or anything, you can email <a href="mailto:gramsjam2015@gmail.com">gramsjam2015@gmail.com</a>
+		</div>
     </body>
 </html>

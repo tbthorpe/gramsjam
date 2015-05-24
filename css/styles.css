@@ -39,6 +39,7 @@ h1, h2, h3, h4 {
       height: 0;
       clear: both; }
     #header ul li {
+      cursor: pointer;
       float: right;
       margin-right: 15px;
       color: white; }
@@ -211,7 +212,8 @@ section.lineup-content ul {
 section.info-content h1 {
   font-size: 36px;
   text-align: left;
-  margin: 20px 0; }
+  margin: 20px 0;
+  border-bottom: 1px solid #999999; }
 section.info-content:after {
   content: ".";
   visibility: hidden;
@@ -221,13 +223,15 @@ section.info-content:after {
 section.info-content ul {
   list-style-type: none;
   margin-bottom: 50px; }
-  section.info-content ul li h2 {
-    font-family: "Helvetica Neue", "Helvetica", "Arial";
-    font-size: 18px;
-    text-align: left;
-    margin-bottom: 15px; }
-  section.info-content ul li p {
-    margin-bottom: 15px; }
+  section.info-content ul li {
+    margin-top: 25px; }
+    section.info-content ul li h2 {
+      font-family: "Helvetica Neue", "Helvetica", "Arial";
+      font-size: 18px;
+      text-align: left;
+      margin-bottom: 15px; }
+    section.info-content ul li p {
+      line-height: 18px; }
   section.info-content ul:nth-of-type(2) {
     margin-bottom: 0px; }
 
@@ -239,7 +243,20 @@ section.rsvp-content DIV.thankyou {
   width: 35%;
   display: none; }
 
+#footer {
+  font-family: "Helvetica Neue", "Helvetica", "Arial";
+  padding: 20px;
+  font-size: 12px;
+  background-color: #d9d9d9;
+  width: 100%;
+  color: #333333; }
+  #footer a, #footer a:hover, #footer a:visited, #footer a:active {
+    color: #333333; }
+
 h1.embiggen {
   font-size: 46px; }
+
+.tiny {
+  font-size: 10px; }
 
 /*# sourceMappingURL=styles.css.map */
