@@ -1,3 +1,143 @@
+* {
+  color: #333333;
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4 {
+  text-align: center;
+  font-family: "notepadregular", arial, sans; }
+
+#header {
+  font-family: "notepadregular", arial, sans;
+  width: 100%;
+  color: white;
+  background-color: gray;
+  padding: 25px 0 30px 25px;
+  text-align: left;
+  position: fixed;
+  top: 0;
+  display: none;
+  z-index: 100; }
+  #header h1 {
+    text-align: center;
+    font-family: "notepadregular", arial, sans;
+    display: inline;
+    color: white;
+    font-size: 28px;
+    float: left; }
+  #header ul {
+    margin-right: 80px;
+    float: right;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: "Helvetica Neue", "Helvetica", "Arial";
+    list-style-type: none; }
+    #header ul:after {
+      content: ".";
+      visibility: hidden;
+      display: block;
+      height: 0;
+      clear: both; }
+    #header ul li {
+      float: right;
+      margin-right: 15px;
+      color: white; }
+
+section {
+  margin-top: 100px;
+  min-height: 400px;
+  width: 100%;
+  display: block; }
+  section:nth-of-type(1) {
+    margin-top: 0px; }
+  section:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both; }
+  section.header_block {
+    position: relative; }
+    section.header_block .bg_image {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0; }
+    section.header_block .header_content {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0; }
+      section.header_block .header_content h1 {
+        font-family: "notepadregular", arial, sans;
+        text-align: center;
+        font-size: 86px;
+        color: #333;
+        padding-top: 130px;
+        font-weight: normal;
+        blur: none; }
+        section.header_block .header_content h1:after {
+          content: ".";
+          visibility: hidden;
+          display: block;
+          height: 0;
+          clear: both; }
+        section.header_block .header_content h1.info.lineup {
+          font-size: 48px;
+          position: absolute;
+          bottom: 25px;
+          text-align: center;
+          width: 100%; }
+      section.header_block .header_content h2 {
+        color: white;
+        font-size: 36px; }
+    section.header_block#header-content-1 {
+      height: 500px;
+      background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("/img/bg.jpg") no-repeat;
+      background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("/img/bg.jpg") no-repeat;
+      background: -o-linear-gradient(left, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("/img/bg.jpg") no-repeat;
+      background: -ms-linear-gradient(left, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("/img/bg.jpg") no-repeat;
+      background-size: cover;
+      background-position: 0 -200px; }
+    section.header_block#header-content-2 {
+      height: 400px; }
+      section.header_block#header-content-2 .bg_image {
+        background: url("/img/dscreek.jpg");
+        background-size: cover;
+        filter: opacity(0.2);
+        -webkit-filter: opacity(0.5);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: 0 -200px; }
+    section.header_block#header-content-3 {
+      height: 400px; }
+      section.header_block#header-content-3 .bg_image {
+        background: url("/img/grams2.jpg");
+        background-size: cover;
+        filter: opacity(0.2);
+        -webkit-filter: opacity(0.5);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; }
+  section.content_block {
+    width: 950px;
+    margin: 40px auto 10px auto;
+    font-family: "Helvetica Neue", "Helvetica", "Arial";
+    font-weight: normal;
+    font-size: 14px;
+    min-height: 400px; }
+    section.content_block h1 {
+      font-family: "notepadregular", arial, sans; }
+
+#marquee_text.stuck {
+  position: fixed;
+  top: 0; }
+
 #nav {
   margin: 15px 0 40px 0;
   font-family: "Helvetica Neue"; }
@@ -17,5 +157,89 @@
         clear: both; }
       #nav #centered-container ul li {
         float: left; }
+
+section.lineup-content:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both; }
+section.lineup-content ul {
+  width: 100%;
+  list-style-type: none; }
+  section.lineup-content ul:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both; }
+  section.lineup-content ul li {
+    float: left;
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: 0 25px 40px 0;
+    position: relative; }
+    section.lineup-content ul li.b1 {
+      background: url(/img/tallahassee.jpg); }
+    section.lineup-content ul li.b2 {
+      background: url(/img/lastgoodtooth.jpg); }
+    section.lineup-content ul li.b3 {
+      background: url(/img/pervert.jpg); }
+    section.lineup-content ul li.b4 {
+      background: url(/img/eql.jpg); }
+    section.lineup-content ul li.b5 {
+      background: url(/img/skull.jpg); }
+    section.lineup-content ul li.b6 {
+      background: url(/img/jonlewis.jpg); }
+    section.lineup-content ul li h4 {
+      position: absolute;
+      bottom: 0;
+      left: 2%;
+      text-align: right;
+      width: 98%;
+      font-size: 18px;
+      font-family: "Helvetica Neue", "Helvetica", "Arial";
+      font-weight: bold;
+      color: #333;
+      font-size: 32px;
+      background: rgba(255, 255, 255, 0.5);
+      padding-right: 20px; }
+    section.lineup-content ul li:nth-of-type(3n) {
+      margin-right: 0px; }
+
+section.info-content h1 {
+  font-size: 36px;
+  text-align: left;
+  margin: 20px 0; }
+section.info-content:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both; }
+section.info-content ul {
+  list-style-type: none;
+  margin-bottom: 50px; }
+  section.info-content ul li h2 {
+    font-family: "Helvetica Neue", "Helvetica", "Arial";
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 15px; }
+  section.info-content ul li p {
+    margin-bottom: 15px; }
+  section.info-content ul:nth-of-type(2) {
+    margin-bottom: 0px; }
+
+section.rsvp-content DIV.form {
+  float: left;
+  width: 60%; }
+section.rsvp-content DIV.thankyou {
+  float: left;
+  width: 35%;
+  display: none; }
+
+h1.embiggen {
+  font-size: 46px; }
 
 /*# sourceMappingURL=styles.css.map */

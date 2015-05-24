@@ -16,20 +16,13 @@
 }
 
 body{
-    font-family:notepadregular,arial,sans;
+    /*font-family:notepadregular,arial,sans;*/
     font-size:16px;
-    background:url(/bg.jpg) no-repeat center center fixed;
+/*    background:url(/bg.jpg) no-repeat center center fixed; */
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-}
-h1{
-    font-family:notepadregular,arial,sans;
-    font-size:28px;
-    border-bottom:1px solid #d1d1d1;
-    padding-bottom:5px;
-    margin-bottom:25px;
 }
 h4{
     font-family:"Helvetica Neue", "Helvetica", "Arial";
@@ -40,14 +33,6 @@ h4{
 #content{
     width:680px;
     margin:40px auto;
-}
-#marquee_text{
-    text-align:center;
-    width:100%;
-    padding:30px 0px;
-    border:1px solid #d1d1d1;
-    background-color:rgba(255,255,255,0.6);
-    margin-top:40px;
 }
 .bigger{
     font-size:48px;
