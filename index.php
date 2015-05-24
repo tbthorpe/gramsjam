@@ -123,7 +123,7 @@
 					</li>
 					<li>
 						<h2>All Day Drinks</h2>
-						<p>Oh man. It's all diy. I'm already tired thinking about it. <u>A specially made Grams Jam Signature beer</u>, <u>Point of the Bluff Wine</u> and <u>unique Dawson's Creek themed cocktails</u> (only thing not included in your ticket price. These will still be MAD cheap though) created by mixologist Chris McCleod. And don't forget about the <u>mimosas</u>, and <u>bloody marys</u> for those staying the night. But for word, don't let yourself see the bottom of your cup.<br/><span class='tiny'>I'm also sure tim is going to bring some genny cream ales just because...Rochester</span></p>
+						<p>Oh man. It's all day. I'm already tired thinking about it. <u>A specially made Grams Jam Signature beer</u>, <u>Point of the Bluff Wine</u> and <u>unique Dawson's Creek themed cocktails</u> (only thing not included in your ticket price. These will still be MAD cheap though) created by mixologist Chris McCleod. And don't forget about the <u>mimosas</u>, and <u>bloody marys</u> for those staying the night. But for word, don't let yourself see the bottom of your cup.<br/><span class='tiny'>I'm also sure tim is going to bring some genny cream ales just because...Rochester</span></p>
 					</li>
 					<li>
 						<h2>Games & Prizes</h2>
