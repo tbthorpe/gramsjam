@@ -55,7 +55,7 @@
 			<div class="bg_image"> </div>
 			<div class="header_content">
 				<h1>Grams Jam 2015</h1>
-				<h2>It's back. July 27-28, 2015. Keuka.</h2>
+				<h2>It's back. June 27-28, 2015. Keuka.</h2>
 				<h1 class="info lineup">Lineup</h1>
 			</div>
 
