@@ -56,6 +56,8 @@
 			<div class="header_content">
 				<h1>Grams Jam 2015</h1>
 				<h2>It's back. June 27-28, 2015. Keuka.</h2>
+				<h3>So come celebrate our favorite Dawson's Creek character, the 
+				lovely Grams</h3>
 				<h1 class="info lineup">Lineup</h1>
 			</div>
 
@@ -64,22 +66,22 @@
 		<section class="content_block lineup-content" id="info-content-1">
 			<ul>
 				<li class="b1">
-					<h4>Tallahassee</h4>
+					<h4><a href="http://tallahasseeband.com" target="_blank">Tallahassee</a></h4>
 				</li>
 				<li class="b2">
-					<h4>Last Good Tooth</h4>
+					<h4><a href="https://lastgoodtooth.bandcamp.com/" target="_blank">Last Good Tooth</a></h4>
 				</li>
 				<li class="b3">
-					<h4>P. Everett</h4>
+					<h4><a href="http://www.p-everett.com/" target="_blank">P. Everett</a></h4>
 				</li>
 				<li class="b4">
-					<h4>Earthquake Lights</h4>
+					<h4><a href="http://earthquake-lights.com/" target="_blank">Earthquake Lights</a></h4>
 				</li>
 				<li class="b5">
-					<h4>Skull</h4>
+					<h4><a href="https://web.archive.org/web/20050922050254/http://www.skullmedia.com/" target="_blank">Skull</a></h4>
 				</li>
 				<li class="b6">
-					<h4>Jon Lewis</h4>
+					<h4><a href="http://jonlewisproductions.com/" target="_blank">Jon Lewis</a></h4>
 				</li>
 			</ul>
 		</section>
@@ -99,7 +101,8 @@
 					</li>
 					<li>
 						<h2>Where</h2>
-						<p>Point of the Bluff Vineyards 8524 Broadview Heights Dr. Keuka Park, NY 14478</p>
+						<p><a 
+						href="https://www.google.com/maps/place/Broadview+Heights+Dr,+Keuka+Park,+NY+14478/@42.503253,-77.140202,635m/data=!3m2!1e3!4b1!4m2!3m1!1s0x89d0fef3cc199185:0xa33c5a93b4407b10!6m1!1e1" target="_blank">Point of the Bluff Vineyards 8524 Broadview Heights Dr. Keuka Park, NY 14478</a></p>
 					</li>
 					<li>
 						<h2>Cost</h2>
@@ -154,6 +157,7 @@
 			<div class="header_content">
 				<h1>R.S.V.P.</h1>
 				<h2>It's a pain, sure. But do it. We promise it's worth it.</h2>
+				<h3>Please RSVP by Friday June 19!</h3>
 			</div>
 		</section>
 		<section class="content_block rsvp-content" id="info-content-3">

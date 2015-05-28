@@ -123,8 +123,11 @@ section{
 				}
 			}
 			h2 {
-				color:white;
 				font-size: 36px;
+			}
+			h3 {
+				margin-top:25px;
+				font-size: 24px;
 			}
 
 		}
@@ -204,6 +207,12 @@ section.lineup-content{
 			height:300px;
 			margin:0 25px 40px 0;
 			position:relative;
+			a {
+				text-decoration:none;
+				&:hover{
+					text-decoration:underline;
+				}
+			}
 			&.b1{
 				background:url(/img/tallahassee.jpg);
 			}
